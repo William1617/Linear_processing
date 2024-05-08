@@ -1,3 +1,3 @@
 # Linear_programming
 
-Linear procgramming for assingment and transportation preblem
+Linear programming for assignment and transportation problem
