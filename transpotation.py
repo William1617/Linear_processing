@@ -95,7 +95,7 @@ def find_loop(A,start_id):
         
             
 
-def tanssportation(cost,supply,demand):
+def transportation(cost,supply,demand):
     assert np.sum(supply)>=np.sum(demand)
     A=np.zeros_like(cost)
     newcost=cost.copy()
@@ -169,6 +169,6 @@ if __name__=='__main__':
     cost[2][1]=2
     cost[2][2]=6
     cost[2][3]=1
-    A=tanssportation(cost,supply,demand)
+    A=transportation(cost,supply,demand)
     totcost=np.sum(A*cost)
     print(totcost)
